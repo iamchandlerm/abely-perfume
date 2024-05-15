@@ -3,19 +3,28 @@
     "image_with_text_ekfPhp": {
       "type": "image-with-text",
       "blocks": {
+        "caption_CwmWJP": {
+          "type": "caption",
+          "settings": {
+            "block_class": "banner-subheading",
+            "caption": "Perfume Packaging Perfected",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
         "heading_iRNNfi": {
           "type": "heading",
           "settings": {
-            "block_class": "",
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "block_class": "banner-heading",
+            "heading": "Packaging Solutions Tailored for Your Brand",
+            "heading_size": "h0"
           }
         },
         "text_ejnz47": {
           "type": "text",
           "settings": {
-            "block_class": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "block_class": "banner-desc",
+            "text": "<p>Elevate Your Fragrance Experience with the Premier Perfume Bottle Packaging Factory in China<\/p>",
             "text_style": "body"
           }
         },
@@ -29,12 +38,14 @@
         }
       },
       "block_order": [
+        "caption_CwmWJP",
         "heading_iRNNfi",
         "text_ejnz47",
         "button_YTcX44"
       ],
       "settings": {
         "section_class": "homepage-image-text",
+        "image": "shopify:\/\/shop_images\/Group_1000002842.png",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "text_first",
