@@ -2292,7 +2292,6 @@ product-info .loading__spinner:not(.hidden) ~ *,
 .shopify-section-header-sticky {
   position: sticky;
   top: 0;
-  background: #18181866;
 }
 
 .shopify-section-header-hidden {
@@ -2304,7 +2303,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 .section-header.animate {
-  transition: top 0.3s ease-out;
+  transition: top 0.15s ease-out;
 }
 
 .shopify-section-group-header-group {
