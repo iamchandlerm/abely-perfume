@@ -127,7 +127,7 @@
               {{ block.settings.heading }}
             </h2>
           {%- when 'text' -%}
-            <div class="banner__text rte {{ block.settings.text_style }} {{ block.settings.block_class }}" {{ block.shopify_attributes }}>
+            <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               <p>{{ block.settings.text }}</p>
             </div>
           {%- when 'buttons' -%}
@@ -398,12 +398,8 @@
     {
       "type": "text",
       "name": "t:sections.image-banner.blocks.text.name",
+      "limit": 1,
       "settings": [
-        {
-          "type": "text",
-          "id": "block_class",
-          "label": "Block class"
-        },
         {
           "type": "inline_richtext",
           "id": "text",
