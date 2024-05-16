@@ -84,4 +84,22 @@
 
 /* END OF HEADER AND BANNER */
 
+/* START OF SERVICES COLUMN */
 
+.services-multicolumn__info{
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.services-multicolumn__title{
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Outfit", sans-serif;
+}
+
+/* END OF SERVICES COLUMN */
