@@ -60,9 +60,57 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_multicolumn_7txcAA": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_7BRYhN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1.png",
+            "title": "One-Stop Service"
+          }
+        },
+        "column_FRCfgU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1_1.png",
+            "title": "Design and Innovation"
+          }
+        },
+        "column_imFLxh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1_2.png",
+            "title": "Quality Assurance"
+          }
+        }
+      },
+      "block_order": [
+        "column_7BRYhN",
+        "column_FRCfgU",
+        "column_imFLxh"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "image_with_text_ekfPhp"
+    "image_with_text_ekfPhp",
+    "custom_multicolumn_7txcAA"
   ]
 }
