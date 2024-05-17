@@ -107,10 +107,101 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "slider_with_text_mLWKzj": {
+      "type": "slider-with-text",
+      "blocks": {
+        "heading_iB8pKw": {
+          "type": "heading",
+          "settings": {
+            "block_class": "",
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_kLaYrC": {
+          "type": "text",
+          "settings": {
+            "block_class": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_xND4aN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "collection_block_EqTtqz": {
+          "type": "collectionBlock",
+          "settings": {
+            "collection": "collection-1"
+          }
+        },
+        "collection_block_J7UUmT": {
+          "type": "collectionBlock",
+          "settings": {
+            "collection": "collection-2"
+          }
+        },
+        "collection_block_6xb4yt": {
+          "type": "collectionBlock",
+          "settings": {
+            "collection": "collection-3"
+          }
+        },
+        "collection_block_6kx8nQ": {
+          "type": "collectionBlock",
+          "settings": {
+            "collection": "collection-2"
+          }
+        },
+        "collection_block_LJ7ULN": {
+          "type": "collectionBlock",
+          "settings": {
+            "collection": "collection-1"
+          }
+        },
+        "collection_block_Emrb83": {
+          "type": "collectionBlock",
+          "settings": {
+            "collection": "collection-3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iB8pKw",
+        "text_kLaYrC",
+        "button_xND4aN",
+        "collection_block_EqTtqz",
+        "collection_block_J7UUmT",
+        "collection_block_6xb4yt",
+        "collection_block_6kx8nQ",
+        "collection_block_LJ7ULN",
+        "collection_block_Emrb83"
+      ],
+      "settings": {
+        "section_class": "",
+        "height": "adapt",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_with_text_ekfPhp",
-    "custom_multicolumn_7txcAA"
+    "custom_multicolumn_7txcAA",
+    "slider_with_text_mLWKzj"
   ]
 }
