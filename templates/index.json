@@ -123,16 +123,8 @@
           "type": "text",
           "settings": {
             "block_class": "",
-            "text": "<p><strong>For Brand Owners<\/strong><\/p><p>We walk through the journey of defining and realizing your brand’s perfect perfume packaging solutions.<\/p>",
+            "text": "<p><strong>For Brand Owners<\/strong><\/p><p>We walk through the journey of defining and realizing your brand’s perfect perfume packaging solutions.<\/p><p><strong>For Manufacturers & Suppliers<\/strong><\/p><p>Offering high-end quality options, our qualified production plant also enables the appreciable lead time to match your plan.<\/p><p><strong>For Wholesalers<\/strong><\/p><p>Besides perfect quality, we offers economical prices for you to satisfy your customers.<\/p>",
             "text_style": "body"
-          }
-        },
-        "button_xND4aN": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         },
         "collection_block_EqTtqz": {
@@ -175,7 +167,6 @@
       "block_order": [
         "heading_iB8pKw",
         "text_kLaYrC",
-        "button_xND4aN",
         "collection_block_EqTtqz",
         "collection_block_J7UUmT",
         "collection_block_6xb4yt",
