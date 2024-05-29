@@ -119,14 +119,6 @@
             "heading_size": "h1"
           }
         },
-        "text_kLaYrC": {
-          "type": "text",
-          "settings": {
-            "block_class": "",
-            "text": "<p><strong>For Brand Owners<\/strong><\/p><p>We walk through the journey of defining and realizing your brand’s perfect perfume packaging solutions.<\/p><p><strong>For Manufacturers & Suppliers<\/strong><\/p><p>Offering high-end quality options, our qualified production plant also enables the appreciable lead time to match your plan.<\/p><p><strong>For Wholesalers<\/strong><\/p><p>Besides perfect quality, we offers economical prices for you to satisfy your customers.<\/p>",
-            "text_style": "body"
-          }
-        },
         "collection_block_EqTtqz": {
           "type": "collectionBlock",
           "settings": {
@@ -162,28 +154,79 @@
           "settings": {
             "collection": "collection-3"
           }
+        },
+        "text_heading_nyJREc": {
+          "type": "textHeading",
+          "settings": {
+            "block_class": "",
+            "image_with_text_image": "shopify:\/\/shop_images\/circle-check.svg",
+            "text": "For Brand Owners",
+            "text_style": "body"
+          }
+        },
+        "text_63gwHi": {
+          "type": "text",
+          "settings": {
+            "block_class": "",
+            "text": "We walk through the journey of defining and realizing your brand’s perfect perfume packaging solutions.",
+            "text_style": "body"
+          }
+        },
+        "text_heading_b8ekDk": {
+          "type": "textHeading",
+          "settings": {
+            "block_class": "",
+            "image_with_text_image": "shopify:\/\/shop_images\/circle-check.svg",
+            "text": "For Manufacturers & Suppliers",
+            "text_style": "body"
+          }
+        },
+        "text_DNDCTh": {
+          "type": "text",
+          "settings": {
+            "block_class": "",
+            "text": "Offering high-end quality options, our qualified production plant also enables the appreciable leadtime to match your plan.",
+            "text_style": "body"
+          }
+        },
+        "text_heading_KDjQeF": {
+          "type": "textHeading",
+          "settings": {
+            "block_class": "",
+            "image_with_text_image": "shopify:\/\/shop_images\/circle-check.svg",
+            "text": "For Wholesalers",
+            "text_style": "body"
+          }
+        },
+        "text_UQbmxH": {
+          "type": "text",
+          "settings": {
+            "block_class": "",
+            "text": "Besides perfect quality, we offers economical prices for you to satisfy your customers.",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
         "heading_iB8pKw",
-        "text_kLaYrC",
         "collection_block_EqTtqz",
         "collection_block_J7UUmT",
         "collection_block_6xb4yt",
         "collection_block_6kx8nQ",
         "collection_block_LJ7ULN",
-        "collection_block_Emrb83"
+        "collection_block_Emrb83",
+        "text_heading_nyJREc",
+        "text_63gwHi",
+        "text_heading_b8ekDk",
+        "text_DNDCTh",
+        "text_heading_KDjQeF",
+        "text_UQbmxH"
       ],
       "settings": {
         "section_class": "",
-        "height": "adapt",
-        "layout": "text_first",
-        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
         "section_color_scheme": "",
         "color_scheme": "",
-        "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
