@@ -231,11 +231,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_Fxen99": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Kp8g8U": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your All-Inclusive Glass Bottle Packaging Solution",
+            "heading_size": "h1"
+          }
+        },
+        "text_4x9a7U": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Elevate Your Brand, Seal the Scent, and Shine with Style! Exclusive Offer Inside – Craft Your Signature Look Today!<\/p>"
+          }
+        },
+        "button_g7GK3k": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Kp8g8U",
+        "text_4x9a7U",
+        "button_g7GK3k"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image_with_text_ekfPhp",
     "custom_multicolumn_7txcAA",
-    "slider_with_text_mLWKzj"
+    "slider_with_text_mLWKzj",
+    "rich_text_Fxen99"
   ]
 }
