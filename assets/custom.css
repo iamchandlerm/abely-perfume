@@ -103,3 +103,10 @@
 }
 
 /* END OF SERVICES COLUMN */
+
+/* START OF RICHTEXT */
+.rich-text__heading{
+    font-family: "Cormorant Garamond", serif;
+}
+
+/* END OF RICHTEXT */

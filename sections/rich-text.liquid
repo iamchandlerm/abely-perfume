@@ -12,6 +12,58 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  {% if section.settings.backgroundImage != blank %}
+    #shopify-section-{{section.id}} .rich-text{
+      background: url({{ section.settings.backgroundImage | img_url: 'master' }});
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  {% endif %}
+
+  #shopify-section-{{section.id}} .rich-text__heading{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 48px;
+    font-weight: 600;
+  }
+
+  #shopify-section-{{section.id}} .rich-text__text{
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  #shopify-section-{{section.id}} .rich-text__buttons a{
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+    transition: all .3s ease-in;
+    background: none;
+  }
+
+  #shopify-section-{{section.id}} .rich-text__buttons a svg{
+    margin-left: 10px;
+  }
+
+  #shopify-section-{{section.id}} .rich-text__buttons a::after,
+  #shopify-section-{{section.id}} .rich-text__buttons a::before{
+    content: none;
+  }
+
+  #shopify-section-{{section.id}} .rich-text__buttons a:hover {
+    background: #fff;
+    color: #000;
+  }
+
+  #shopify-section-{{section.id}} .rich-text__buttons a:hover svg path {
+    fill: #000;
+  }
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
@@ -71,7 +123,10 @@
                     {% endif %}
                     class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                   >
-                    {{- block.settings.button_label | escape -}}
+                    {{- block.settings.button_label | escape -}} 
+                    <svg width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M20.5303 7.03033C20.8232 6.73744 20.8232 6.26256 20.5303 5.96967L15.7574 1.1967C15.4645 0.903806 14.9896 0.903806 14.6967 1.1967C14.4038 1.48959 14.4038 1.96447 14.6967 2.25736L18.9393 6.5L14.6967 10.7426C14.4038 11.0355 14.4038 11.5104 14.6967 11.8033C14.9896 12.0962 15.4645 12.0962 15.7574 11.8033L20.5303 7.03033ZM0 7.25H20V5.75H0V7.25Z" fill="white" />
+                    </svg>
                   </a>
                 {%- endif -%}
                 {%- if block.settings.button_label_2 != blank -%}
@@ -83,7 +138,10 @@
                     {% endif %}
                     class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
                   >
-                    {{- block.settings.button_label_2 | escape -}}
+                    {{- block.settings.button_label_2 | escape -}} 
+                    <svg width="21" height="13" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M20.5303 7.03033C20.8232 6.73744 20.8232 6.26256 20.5303 5.96967L15.7574 1.1967C15.4645 0.903806 14.9896 0.903806 14.6967 1.1967C14.4038 1.48959 14.4038 1.96447 14.6967 2.25736L18.9393 6.5L14.6967 10.7426C14.4038 11.0355 14.4038 11.5104 14.6967 11.8033C14.9896 12.0962 15.4645 12.0962 15.7574 11.8033L20.5303 7.03033ZM0 7.25H20V5.75H0V7.25Z" fill="white" />
+                    </svg>
                   </a>
                 {%- endif -%}
               </div>
@@ -103,6 +161,11 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "backgroundImage",
+      "label": "Background image"
+    },
     {
       "type": "select",
       "id": "desktop_content_position",
