@@ -1,21 +1,259 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "image_with_text_ekfPhp": {
+      "type": "image-with-text",
       "blocks": {
-        "heading": {
+        "caption_CwmWJP": {
+          "type": "caption",
+          "settings": {
+            "block_class": "banner-subheading",
+            "caption": "Perfume Packaging Perfected",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "heading_iRNNfi": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "block_class": "banner-heading",
+            "heading": "Packaging Solutions Tailored for Your Brand",
             "heading_size": "h0"
           }
         },
-        "button": {
-          "type": "buttons",
+        "text_ejnz47": {
+          "type": "text",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
+            "block_class": "banner-desc",
+            "text": "<p>Elevate Your Fragrance Experience with the Premier Perfume Bottle Packaging Factory in China<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_YTcX44": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_CwmWJP",
+        "heading_iRNNfi",
+        "text_ejnz47",
+        "button_YTcX44"
+      ],
+      "settings": {
+        "section_class": "homepage-image-text",
+        "image": "shopify:\/\/shop_images\/Group_1000002842.png",
+        "height": "medium",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "bg_image": "shopify:\/\/shop_images\/banner-background.png",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_multicolumn_7txcAA": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_7BRYhN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1.png",
+            "title": "One-Stop Service"
+          }
+        },
+        "column_FRCfgU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1_1.png",
+            "title": "Design and Innovation"
+          }
+        },
+        "column_imFLxh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1_2.png",
+            "title": "Quality Assurance"
+          }
+        }
+      },
+      "block_order": [
+        "column_7BRYhN",
+        "column_FRCfgU",
+        "column_imFLxh"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "slider_with_text_mLWKzj": {
+      "type": "slider-with-text",
+      "blocks": {
+        "heading_iB8pKw": {
+          "type": "heading",
+          "settings": {
+            "block_class": "",
+            "heading": "Sourcing Perfume Packaging from Abely",
+            "heading_size": "h1"
+          }
+        },
+        "collection_block_EqTtqz": {
+          "type": "collectionBlock",
+          "settings": {
+            "collection": "collection-1"
+          }
+        },
+        "collection_block_J7UUmT": {
+          "type": "collectionBlock",
+          "settings": {
+            "collection": "collection-2"
+          }
+        },
+        "collection_block_6xb4yt": {
+          "type": "collectionBlock",
+          "settings": {
+            "collection": "collection-3"
+          }
+        },
+        "collection_block_6kx8nQ": {
+          "type": "collectionBlock",
+          "settings": {
+            "collection": "collection-2"
+          }
+        },
+        "collection_block_LJ7ULN": {
+          "type": "collectionBlock",
+          "settings": {
+            "collection": "collection-1"
+          }
+        },
+        "collection_block_Emrb83": {
+          "type": "collectionBlock",
+          "settings": {
+            "collection": "collection-3"
+          }
+        },
+        "text_heading_nyJREc": {
+          "type": "textHeading",
+          "settings": {
+            "block_class": "",
+            "image_with_text_image": "shopify:\/\/shop_images\/circle-check.svg",
+            "text": "For Brand Owners",
+            "text_style": "body"
+          }
+        },
+        "text_63gwHi": {
+          "type": "text",
+          "settings": {
+            "block_class": "",
+            "text": "We walk through the journey of defining and realizing your brand’s perfect perfume packaging solutions.",
+            "text_style": "body"
+          }
+        },
+        "text_heading_b8ekDk": {
+          "type": "textHeading",
+          "settings": {
+            "block_class": "",
+            "image_with_text_image": "shopify:\/\/shop_images\/circle-check.svg",
+            "text": "For Manufacturers & Suppliers",
+            "text_style": "body"
+          }
+        },
+        "text_DNDCTh": {
+          "type": "text",
+          "settings": {
+            "block_class": "",
+            "text": "Offering high-end quality options, our qualified production plant also enables the appreciable leadtime to match your plan.",
+            "text_style": "body"
+          }
+        },
+        "text_heading_KDjQeF": {
+          "type": "textHeading",
+          "settings": {
+            "block_class": "",
+            "image_with_text_image": "shopify:\/\/shop_images\/circle-check.svg",
+            "text": "For Wholesalers",
+            "text_style": "body"
+          }
+        },
+        "text_UQbmxH": {
+          "type": "text",
+          "settings": {
+            "block_class": "",
+            "text": "Besides perfect quality, we offers economical prices for you to satisfy your customers.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iB8pKw",
+        "collection_block_EqTtqz",
+        "collection_block_J7UUmT",
+        "collection_block_6xb4yt",
+        "collection_block_6kx8nQ",
+        "collection_block_LJ7ULN",
+        "collection_block_Emrb83",
+        "text_heading_nyJREc",
+        "text_63gwHi",
+        "text_heading_b8ekDk",
+        "text_DNDCTh",
+        "text_heading_KDjQeF",
+        "text_UQbmxH"
+      ],
+      "settings": {
+        "section_class": "",
+        "desktop_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_Fxen99": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Kp8g8U": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your All-Inclusive Glass Bottle Packaging Solution",
+            "heading_size": "h1"
+          }
+        },
+        "text_4x9a7U": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Elevate Your Brand, Seal the Scent, and Shine with Style! Exclusive Offer Inside – Craft Your Signature Look Today!<\/p>"
+          }
+        },
+        "button_g7GK3k": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "#",
+            "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -23,53 +261,54 @@
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "heading_Kp8g8U",
+        "text_4x9a7U",
+        "button_g7GK3k"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "backgroundImage": "shopify:\/\/shop_images\/Frame_1000003296.png",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-cb4eb5ed-584d-429b-b1d6-d749f165ef0b",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
-    "featured_collection": {
+    "featured_collection_8ExMaK": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
+        "title": "Featured collection",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
+        "collection": "",
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
-        "show_secondary_image": true,
+        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 44,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection"
+    "image_with_text_ekfPhp",
+    "custom_multicolumn_7txcAA",
+    "slider_with_text_mLWKzj",
+    "rich_text_Fxen99",
+    "featured_collection_8ExMaK"
   ]
 }
